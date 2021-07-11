@@ -1,18 +1,22 @@
-# README
+# spiderm
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+クローリングした情報を検索できるアプリケーション（予定）
 
-Things you may want to cover:
+docker-composeでコンテナを立てて開発することを想定しています。
 
-* Ruby version
+## 事前準備
+- docker, docker-composeをインストール
 
-* System dependencies
+## コンテナ立ち上げ
+```sh
+docker-compose up -d
+```
+## Database creation
+```sh
+docker-compose run web bin/rails db:create
+```
 
-* Configuration
-
-* Database creation
-
+### TODO
 * Database initialization
 
 * How to run the test suite
