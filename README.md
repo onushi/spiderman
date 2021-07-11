@@ -13,7 +13,7 @@ docker-compose up -d
 ```
 ## Database creation
 ```sh
-docker-compose run web bin/rails db:create
+dbin/rails db:create
 ```
 
 ### TODO
