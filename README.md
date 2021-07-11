@@ -1,6 +1,8 @@
-# spiderm
+# spiderman
 
 クローリングした情報を検索できるアプリケーション（予定）
+
+rails, reactらへんの勉強のために作ってます。
 
 docker-composeでコンテナを立てて開発することを想定しています。
 
